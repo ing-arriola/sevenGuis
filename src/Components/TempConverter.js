@@ -14,14 +14,12 @@ const TempConverter = () => {
   };
 
   return (
-    <div>
-      <Row className="justify-content-center align-items-center mt-5 ">
-        <input value={celsius} onChange={handleChangeCelcius}></input>
-        <label className="my-auto mr-4">Celsius</label>
-        <input value={fahrenheit} onChange={handleChangeFahrenheit}></input>
-        <label className="my-auto">Fahrenheit</label>
-      </Row>
-    </div>
+    <Row className="justify-content-center align-items-center mt-5 ">
+      <input value={celsius} onChange={handleChangeCelcius}></input>
+      <label className="my-auto mr-4">Celsius</label>
+      <input value={fahrenheit} onChange={handleChangeFahrenheit}></input>
+      <label className="my-auto">Fahrenheit</label>
+    </Row>
   );
 };
 
